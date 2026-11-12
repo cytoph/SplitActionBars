@@ -1,9 +1,11 @@
 # SplitActionBars
 
-<div style="border: 1px solid #68778a; border-radius: 6px; padding-left: 16px; font-family: 'Segoe Print', 'Comic Sans MS', cursive;">
-<p>"You ever wanted a gap in your action bar? Nothing more, nothing less, just a gap in your bar. I got you!<br>
-You want more than one gap? One horizontal or just vertical or both? I've got you covered!"</p>
-</div>
+---
+
+*"You ever wanted a gap in your action bar? Nothing more, nothing less, just a gap in your bar. I got you!<br>
+You want more than one gap? One horizontal or just vertical or both? I've got you covered!"*
+
+---
 
 SplitActionBars lets you separate Blizzard's action bars into groups by adding gaps between columns or rows. Your buttons and keybindings stay as they are. You choose where each gap goes and how much space it leaves.
 
