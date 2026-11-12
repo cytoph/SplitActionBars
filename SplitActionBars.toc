@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: SplitActionBars
+## Notes: Saved column and row gaps for native action bar grids. Configure inline in Edit Mode.
+## Notes-deDE: Gespeicherte Spalten- und Zeilenlücken für Blizzards Aktionsleisten. Direkt im Bearbeitungsmodus konfigurieren.
+## Notes-frFR: Espaces de colonnes et de lignes enregistrés pour les barres d'action Blizzard. Configuration en mode Édition.
+## Notes-esES: Huecos de columnas y filas guardados para las barras de acción Blizzard. Configuración en modo Edición.
+## Notes-esMX: Huecos de columnas y filas guardados para las barras de acción Blizzard. Configuración en modo Edición.
+## Notes-itIT: Spazi tra colonne e righe salvati per le barre delle azioni Blizzard. Configurazione in modalità Modifica.
+## Author: @project-author@
+## Version: @project-version@
+## OptionalDeps: Blizzard_ActionBar, Blizzard_EditMode
+## SavedVariables: SplitActionBarsDB
+Locales.lua
+Core.lua
+SplitActionBars.lua
+EditModePanel.lua

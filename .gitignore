@@ -1,0 +1,25 @@
+# Local Visual Studio files
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local editor history and workspace files
+.localhistory/
+.vshistory/
+.history/
+*.code-workspace
+
+# Temporary files and logs
+*.tmp
+*.log
+*~
+
+# Local planning and worktrees
+.superpowers/
+.worktrees/
+
+# Git Bash crash dumps
+bash.exe.stackdump

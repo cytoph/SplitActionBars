@@ -1,0 +1,10 @@
+package-as: SplitActionBars
+enable-nolib-creation: no
+
+ignore:
+ - pkgmeta.yaml
+ - README.md
+ - assets
+
+license-output:
+ LICENSE
