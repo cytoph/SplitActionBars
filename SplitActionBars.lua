@@ -9,7 +9,7 @@ local states, hooked = {}, {}
 local enabled = true
 local busy, queued, pending, ready = false, false, false, false
 local interface = select(4, GetBuildInfo())
-local supported = type(interface) == "number" and interface >= 16000 and interface < 20000
+local supported = type(interface) == "number" and ((interface >= 16000 and interface < 20000) or interface == 120105)
 local EPS = 0.05
 local Refresh, Schedule
 local function Say(text) DEFAULT_CHAT_FRAME:AddMessage("|cff80c0ffSplitActionBars:|r " .. text) end

@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Button name="SplitActionBarsIncrementButtonTemplate" inherits="WowStyle2IconButtonTemplate" virtual="true">
+        <KeyValues>
+            <KeyValue key="normalAtlas" type="string" value="common-dropdown-icon-next"/>
+            <KeyValue key="disabledAtlas" type="string" value="common-dropdown-icon-next-disabled"/>
+        </KeyValues>
+    </Button>
+    <Button name="SplitActionBarsDecrementButtonTemplate" inherits="WowStyle2IconButtonTemplate" virtual="true">
+        <KeyValues>
+            <KeyValue key="normalAtlas" type="string" value="common-dropdown-icon-back"/>
+            <KeyValue key="disabledAtlas" type="string" value="common-dropdown-icon-back-disabled"/>
+        </KeyValues>
+    </Button>
+</Ui>

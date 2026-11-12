@@ -313,8 +313,8 @@ local function CreatePanel()
     for _,row in ipairs({{p.Position,-138},{p.Distance,-182}}) do
         local input,y=row[1],row[2]
         local parent=input == p.Position and p or p.DistanceRow
-        local decrement=IconButton(parent,"SteppersDecrementButtonTemplate",0,y,function() Step(input,-1) end)
-        local increment=IconButton(parent,"SteppersIncrementButtonTemplate",0,y,function() Step(input,1) end)
+        local decrement=IconButton(parent,"SplitActionBarsDecrementButtonTemplate",0,y,function() Step(input,-1) end)
+        local increment=IconButton(parent,"SplitActionBarsIncrementButtonTemplate",0,y,function() Step(input,1) end)
         if input == p.Position then
             p.PositionDecrement,p.PositionIncrement=decrement,increment
         else

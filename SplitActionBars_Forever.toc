@@ -13,4 +13,5 @@
 Locales.lua
 Core.lua
 SplitActionBars.lua
+StepButtons.xml
 EditModePanel.lua
